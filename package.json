@@ -1,0 +1,12 @@
+{
+  "name": "echo-maze",
+  "version": "1.0.0",
+  "private": true,
+  "description": "손짓과 박수로 조작하는 브라우저 미로 게임",
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "check": "node --check game.js",
+    "test": "node tests/game.test.cjs"
+  },
+  "engines": { "node": ">=18" }
+}
